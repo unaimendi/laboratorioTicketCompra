@@ -1,3 +1,4 @@
-import "./style.css";
+import { productos } from "./ticketCompra/modelo";
+import { calculaTicket } from "./ticketCompra/ticketCompra";
 
-console.log("Hello Typescript!");
+console.log(calculaTicket(productos));
